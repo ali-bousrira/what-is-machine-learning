@@ -12,8 +12,8 @@ This repository focuses on explaining two fundamental topics in machine learning
 
 1. [La Science des Données](#la-science-des-données)
 2. [La Régression](#la-régression)
-    - [Types de Régression](#types-de-régression)
-    - [Régression à Descente de Gradient](#régression-à-descente-de-gradient)
+   - [Types de Régression](#types-de-régression)
+   - [Régression à Descente de Gradient](#régression-à-descente-de-gradient)
 
 ---
 
@@ -24,6 +24,7 @@ La **science des données** est un domaine interdisciplinaire qui combine des co
 ### Objectifs de la Science des Données
 
 Les principaux objectifs de la science des données sont de :
+
 1. **Explorer les données** : Trouver des relations cachées entre différentes variables.
 2. **Analyser les données** : Utiliser des techniques statistiques et des algorithmes pour tirer des conclusions significatives.
 3. **Modéliser les données** : Créer des modèles prédictifs ou explicatifs à l'aide de l'apprentissage automatique.
@@ -57,7 +58,7 @@ La **régression** est une technique de modélisation statistique utilisée en a
 La régression linéaire simple modélise la relation entre deux variables par une droite. La formule est la suivante :
 
 \[
-y = \beta_0 + \beta_1 x + \epsilon
+ y = \beta_0 + \beta_1 x + \epsilon
 \]
 
 - \( y \) est la variable dépendante (la cible que nous voulons prédire).
@@ -77,11 +78,9 @@ La **descente de gradient** est une méthode d'optimisation utilisée pour ajust
 1. **Initialisation** : Choisir des valeurs initiales pour \( \beta_0 \) et \( \beta_1 \).
 2. **Calcul du Gradient** : Déterminer la direction dans laquelle les coefficients doivent être ajustés pour réduire l'erreur.
 3. **Mise à Jour** : Mettre à jour les coefficients selon la formule :
-   
    \[
    \beta_j = \beta_j - \alpha \frac{\partial J}{\partial \beta_j}
    \]
-   
    où \( \alpha \) est le taux d'apprentissage et \( J \) est la fonction de coût.
 4. **Répétition** : Répéter jusqu'à convergence.
 
