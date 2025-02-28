@@ -55,17 +55,13 @@ La **régression** est une technique de modélisation statistique utilisée en a
 
 ### Exemple de Régression Linéaire Simple
 
-La régression linéaire simple modélise la relation entre deux variables par une droite. La formule est la suivante :
+La régression linéaire simple modélise la relation entre deux variables par une droite.
 
-\[
- y = \beta_0 + \beta_1 x + \epsilon
-\]
-
-- \( y \) est la variable dépendante (la cible que nous voulons prédire).
-- \( x \) est la variable indépendante (les caractéristiques utilisées pour prédire).
-- \( \beta_0 \) est l'ordonnée à l'origine (l'intercept).
-- \( \beta_1 \) est le coefficient de régression (la pente de la droite).
-- \( \epsilon \) est l'erreur du modèle (résidu).
+- y est la variable dépendante (la cible que nous voulons prédire).
+- x est la variable indépendante (les caractéristiques utilisées pour prédire).
+- β₀ est l'ordonnée à l'origine (l'intercept).
+- β₁ est le coefficient de régression (la pente de la droite).
+- ϵ est l'erreur du modèle (résidu).
 
 ---
 
@@ -75,13 +71,13 @@ La **descente de gradient** est une méthode d'optimisation utilisée pour ajust
 
 ### Algorithme de Descente de Gradient
 
-1. **Initialisation** : Choisir des valeurs initiales pour \( \beta_0 \) et \( \beta_1 \).
+1. **Initialisation** : Choisir des valeurs initiales pour β₀ et β₁.
 2. **Calcul du Gradient** : Déterminer la direction dans laquelle les coefficients doivent être ajustés pour réduire l'erreur.
 3. **Mise à Jour** : Mettre à jour les coefficients selon la formule :
-   \[
-   \beta_j = \beta_j - \alpha \frac{\partial J}{\partial \beta_j}
-   \]
-   où \( \alpha \) est le taux d'apprentissage et \( J \) est la fonction de coût.
+   
+   βⱼ = βⱼ - α * (∂J/∂βⱼ)
+   
+   où α est le taux d'apprentissage et J est la fonction de coût.
 4. **Répétition** : Répéter jusqu'à convergence.
 
 La descente de gradient est largement utilisée en apprentissage automatique pour optimiser divers modèles, notamment les régressions linéaires et logistiques.
