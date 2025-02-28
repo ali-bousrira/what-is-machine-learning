@@ -4,7 +4,7 @@
 
 Machine Learning (ML), an essential component of Artificial Intelligence (AI), enables machines to learn from data without explicit programming. By utilizing algorithms and statistical models, ML identifies patterns in data and makes accurate predictions in various domains such as healthcare, finance, and more. The rapid growth of machine learning is revolutionizing processes by automating complex tasks and improving decision-making.
 
-This repository focuses on explaining two fundamental topics in machine learning: **La Science des Données** and **La Régression**. These concepts form the basis for understanding and applying machine learning techniques.
+This repository focuses on explaining two fundamental topics in machine learning: **La Science des Données** et **La Régression**. Ces concepts forment la base pour comprendre et appliquer les techniques d'apprentissage automatique.
 
 ---
 
@@ -12,6 +12,8 @@ This repository focuses on explaining two fundamental topics in machine learning
 
 1. [La Science des Données](#la-science-des-données)
 2. [La Régression](#la-régression)
+    - [Types de Régression](#types-de-régression)
+    - [Régression à Descente de Gradient](#régression-à-descente-de-gradient)
 
 ---
 
@@ -41,10 +43,10 @@ La **régression** est une technique de modélisation statistique utilisée en a
 
 ### Types de Régression
 
-1. **Régression Linéaire Simple** : 
+1. **Régression Linéaire Simple** :
    Utilisée lorsque la relation entre la variable cible et les caractéristiques est linéaire. Cette technique est le cas le plus simple de régression, où la variable cible est modélisée comme une combinaison linéaire des variables indépendantes.
 
-2. **Régression Linéaire Multiple** : 
+2. **Régression Linéaire Multiple** :
    Il s'agit d'une extension de la régression linéaire où plusieurs variables indépendantes sont utilisées pour prédire une variable cible. Elle est utile lorsque plusieurs facteurs influencent le résultat.
 
 3. **Régression Polynomiale** :
@@ -63,3 +65,25 @@ y = \beta_0 + \beta_1 x + \epsilon
 - \( \beta_0 \) est l'ordonnée à l'origine (l'intercept).
 - \( \beta_1 \) est le coefficient de régression (la pente de la droite).
 - \( \epsilon \) est l'erreur du modèle (résidu).
+
+---
+
+## Régression à Descente de Gradient
+
+La **descente de gradient** est une méthode d'optimisation utilisée pour ajuster les paramètres d'un modèle de régression en minimisant l'erreur entre les prédictions et les valeurs réelles. Elle fonctionne en mettant à jour les coefficients du modèle en fonction du gradient de l'erreur.
+
+### Algorithme de Descente de Gradient
+
+1. **Initialisation** : Choisir des valeurs initiales pour \( \beta_0 \) et \( \beta_1 \).
+2. **Calcul du Gradient** : Déterminer la direction dans laquelle les coefficients doivent être ajustés pour réduire l'erreur.
+3. **Mise à Jour** : Mettre à jour les coefficients selon la formule :
+   
+   \[
+   \beta_j = \beta_j - \alpha \frac{\partial J}{\partial \beta_j}
+   \]
+   
+   où \( \alpha \) est le taux d'apprentissage et \( J \) est la fonction de coût.
+4. **Répétition** : Répéter jusqu'à convergence.
+
+La descente de gradient est largement utilisée en apprentissage automatique pour optimiser divers modèles, notamment les régressions linéaires et logistiques.
+
