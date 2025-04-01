@@ -54,6 +54,8 @@ Algorithme d'optimisation ajustant progressivement les paramètres d’un modèl
 
 ---
 
+## recherche aprofondi
+
 Ce document se concentre sur deux concepts importants en apprentissage automatique : **La Science des Données** et **La Régression**.
 
 ---
