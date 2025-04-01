@@ -4,6 +4,56 @@
 
 L'**apprentissage automatique** (ou Machine Learning, ML) est une branche de l'intelligence artificielle (IA) qui permet aux machines d'apprendre à partir de données sans être explicitement programmées. Grâce à des algorithmes et des modèles statistiques, l'IA identifie des motifs dans les données et fait des prédictions, que ce soit dans des domaines comme la santé, la finance, etc. L'apprentissage automatique révolutionne le monde en automatisant des tâches complexes et en améliorant la prise de décisions.
 
+---
+
+## A. L’apprentissage automatique et l’apprentissage profond
+
+Apprentissage automatique : Développement d'algorithmes permettant aux ordinateurs d'apprendre et de s'améliorer à partir de données.
+
+Apprentissage profond : Sous-domaine utilisant des réseaux de neurones profonds pour traiter des informations complexes.
+
+## B. L’apprentissage supervisé
+
+Méthode d'entraînement utilisant des données labellisées, où le modèle apprend à associer des entrées à des sorties connues.
+
+## C. L’apprentissage non supervisé
+
+Le modèle identifie des structures cachées dans des données non étiquetées sans intervention humaine.
+
+## D. La classification supervisée
+
+Technique d’apprentissage supervisé où le modèle assigne une catégorie à une nouvelle donnée en se basant sur ses apprentissages passés.
+
+## E. La classification non supervisée
+
+Identification automatique de groupes ou de clusters dans des données non étiquetées.
+
+## F. La validation croisée
+
+Technique utilisée pour évaluer la performance d’un modèle en répartissant les données en plusieurs sous-ensembles d’entraînement et de test.
+
+## G. Données d’entraînement, de test et de validation
+
+Données d'entraînement : Servent à apprendre les paramètres du modèle.
+
+Données de test : Évaluent la performance finale.
+
+Données de validation : Aident à ajuster les hyperparamètres et à éviter le surajustement.
+
+## H. Corrélation linéaire (de Pearson) entre deux variables
+
+Mesure statistique indiquant le degré d’association linéaire entre deux variables quantitatives.
+
+## I. Une fonction de coût
+
+Outil permettant d’évaluer l’erreur d’un modèle en comparant ses prédictions aux valeurs réelles.
+
+## J. La descente de gradient
+
+Algorithme d'optimisation ajustant progressivement les paramètres d’un modèle en minimisant la fonction de coût.
+
+---
+
 Ce document se concentre sur deux concepts importants en apprentissage automatique : **La Science des Données** et **La Régression**.
 
 ---
